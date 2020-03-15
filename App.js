@@ -16,8 +16,9 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import Nomadic from './src/Nomadic';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
 
-const App: () => React$Node = () => {
+const App = () => {
   return <Nomadic />;
 };
 

@@ -7,4 +7,6 @@ export default {
   styleConstants: {
     rowHeight: 60,
   },
+  // baseUrl: 'https://nomadic-sftjac.turbo360-vertex.com/api',
+  baseUrl: 'http://localhost:3000/api/',
 };

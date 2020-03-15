@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import config from '../../config';
-import {PostFeed} from '../container/PostFeed';
+import PostFeed from '../container/PostFeed';
 
 class MainFeed extends Component {
   // componentDidMount() {
